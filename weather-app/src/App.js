@@ -1,13 +1,11 @@
 // App.js
-
 import React from 'react';
-import './App.css';
-import Weather from './Weather';
+import WeatherApp from './components/WeatherApp';
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <WeatherApp />
     </div>
   );
 }
